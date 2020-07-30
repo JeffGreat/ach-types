@@ -1,3 +1,4 @@
+export * from './base-model';
 export * from './api';
 export * from './auth';
 export * from './user';
