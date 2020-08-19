@@ -1,4 +1,5 @@
 import { IBaseModel } from './base-model';
+import { IOffer } from './offer';
 
 export interface IBusinessAddress extends IBaseModel {
     street: string;
@@ -30,5 +31,6 @@ export interface IBusiness extends IBaseModel {
     address: IBusinessAddress;
     siren: string;
     bookingOptions: IBookingOptions;
+    offers: IOffer[];
     users: string[];
 }
