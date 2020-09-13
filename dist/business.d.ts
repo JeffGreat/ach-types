@@ -7,8 +7,10 @@ export interface IBusinessAddress extends IBaseModel {
     zip: string;
     city: string;
     country: string;
-    long?: string;
-    lat?: string;
+    location?: {
+        type: string;
+        coordinates: number[];
+    };
 }
 export interface IBookingOptions {
     enabled: boolean;
