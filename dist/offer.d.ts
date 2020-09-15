@@ -16,5 +16,9 @@ export interface IOffer extends IBaseModel {
     startTime: string;
     endTime: string;
     days: number[];
+    menu: {
+        label: string;
+        price: number;
+    }[];
     pictures: string[];
 }
