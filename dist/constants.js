@@ -28,5 +28,5 @@ exports.imageFormats = [
         height: 300,
         option: { fit: 'cover' },
     },
-    { suffix: 'xs', width: 100, option: { fit: 'cover' } },
+    { suffix: 'xs', width: 100, height: 100, option: { fit: 'cover' } },
 ];

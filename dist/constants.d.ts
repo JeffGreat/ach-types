@@ -10,11 +10,4 @@ export declare const imageFormats: ({
     option: {
         fit: string;
     };
-} | {
-    suffix: string;
-    width: number;
-    option: {
-        fit: string;
-    };
-    height?: undefined;
 })[];
