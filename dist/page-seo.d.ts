@@ -1,4 +1,5 @@
-export interface IPageSeo {
+import { IBaseModel } from "./base-model";
+export interface IPageSeo extends IBaseModel {
     published: boolean;
     metaTitle: string;
     metaDescription: string;
