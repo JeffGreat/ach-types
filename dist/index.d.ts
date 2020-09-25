@@ -5,4 +5,5 @@ export * from './user';
 export * from './page-seo';
 export * from './business';
 export * from './offer';
+export * from './booking';
 export * from './constants';
