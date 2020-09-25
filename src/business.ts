@@ -33,6 +33,7 @@ export interface IBusiness extends IBaseModel {
     address: IBusinessAddress;
     siren: string;
     bookingOptions: IBookingOptions;
+    pictures: string[];
     offers: IOffer[];
     users: string[];
 }
