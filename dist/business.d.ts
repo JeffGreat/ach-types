@@ -12,6 +12,11 @@ export interface IBusinessAddress extends IBaseModel {
         coordinates: number[];
     };
 }
+export declare enum BookingSpacesEnum {
+    'tables' = 0,
+    'spaces' = 1,
+    'all' = 10
+}
 export interface IBookingOptions {
     enabled: boolean;
     fromPax: number;
@@ -19,6 +24,7 @@ export interface IBookingOptions {
     capacity: number;
     noShowEnabled: boolean;
     noShowCaution: number;
+    spaces: BookingSpacesEnum[];
 }
 export interface IBusiness extends IBaseModel {
     name: string;
