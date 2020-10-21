@@ -19,7 +19,7 @@ export enum MenuCategoryEnum {
 
 export interface IOfferMenu {
     label: string;
-    menuCategory: MenuCategoryEnum;
+    category: MenuCategoryEnum;
     price: number;
 }
 
