@@ -12,8 +12,14 @@ export enum OfferPlusEnum {
     'Babyfoot' = 2,
 }
 
+export enum MenuCategoryEnum {
+    drink = 0,
+    food = 1,
+}
+
 export interface IOfferMenu {
     label: string;
+    menuCategory: MenuCategoryEnum;
     price: number;
 }
 

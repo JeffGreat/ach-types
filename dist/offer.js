@@ -13,3 +13,8 @@ var OfferPlusEnum;
     OfferPlusEnum[OfferPlusEnum["Dancing"] = 1] = "Dancing";
     OfferPlusEnum[OfferPlusEnum["Babyfoot"] = 2] = "Babyfoot";
 })(OfferPlusEnum = exports.OfferPlusEnum || (exports.OfferPlusEnum = {}));
+var MenuCategoryEnum;
+(function (MenuCategoryEnum) {
+    MenuCategoryEnum[MenuCategoryEnum["drink"] = 0] = "drink";
+    MenuCategoryEnum[MenuCategoryEnum["food"] = 1] = "food";
+})(MenuCategoryEnum = exports.MenuCategoryEnum || (exports.MenuCategoryEnum = {}));

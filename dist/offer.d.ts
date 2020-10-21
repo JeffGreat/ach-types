@@ -10,8 +10,13 @@ export declare enum OfferPlusEnum {
     'Dancing' = 1,
     'Babyfoot' = 2
 }
+export declare enum MenuCategoryEnum {
+    drink = 0,
+    food = 1
+}
 export interface IOfferMenu {
     label: string;
+    menuCategory: MenuCategoryEnum;
     price: number;
 }
 export interface IOffer extends IBaseModel {
