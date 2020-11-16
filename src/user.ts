@@ -12,6 +12,6 @@ export interface IUser extends IBaseModel {
     firstName: string;
     lastName: string;
     password: string;
-    stripeCust: string;
+    stripeCust?: string;
     role: UserRolesEnum;
 }
