@@ -39,4 +39,5 @@ export interface IBusiness extends IBaseModel {
     pictures: string[];
     offers: IOffer[];
     users: string[];
+    stripeCust?: string;
 }
