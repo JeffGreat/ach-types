@@ -21,10 +21,10 @@ export interface IOfferMenu {
 }
 export interface IOffer extends IBaseModel {
     teaser: string;
-    enabled: boolean;
-    startTime: string;
-    endTime: string;
-    days: number[];
-    menus: IOfferMenu[];
-    pictures: string[];
+    enabled?: boolean;
+    startTime?: string;
+    endTime?: string;
+    days?: number[];
+    menus?: IOfferMenu[];
+    pictures?: string[];
 }
